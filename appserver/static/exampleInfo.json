@@ -1,0 +1,220 @@
+[
+    {
+        "id": "idea",
+        "title": "Have an idea?",
+        "short-description": "Join our Slack room #splunk4good to share your idea on working with other interesting datasets or partners!",
+        "category": ["Splunk"],
+        "tags": ["rest api", "real-time", "lookup", "sample", "fixed range", "generated", "script", "json", "xml", "machine learning", "custom viz", "new"],
+        "link": {
+            "base": "https://www.google.com/search?q=open+data"
+        }
+    },
+    {
+        "id": "wunderground",
+        "title": "Wunderground (Weather)",
+        "short-description": "Current and forecast weather data for each Splunk office locations. Data provided by <a href=\"https://www.wunderground.com/weather/api/\" target=\"_blank\">Wunderground API</a>.",
+        "category": ["Scientific"],
+        "tags": ["rest api", "real-time", "json"],
+        "link": {
+            "base": "/app/s4g_welcome/search",
+            "params": {
+                "earliest": "-7d@d",
+                "latest": "now",
+                "q": "search index=weather"
+            }
+        }
+    },
+    {
+        "id": "hurricane_harvey",
+        "title": "Hurricane Harvey",
+        "short-description": "Wunderground dataset for various Texas cities during Hurricane Harvey. Also includes tracking information of the hurricane.",
+        "category": ["Scientific"],
+        "tags": ["rest api", "fixed range", "lookup", "json"],
+        "link": {
+            "base": "/app/hurricane_harvey/hurricane_overview"
+        }
+    },
+    {
+        "id": "2017_s4g_intern",
+        "title": "2017-2018 Splunk4Good Splunktern Summer Final Projects",
+        "short-description": "Scores for the S4G intern teams on their S4G final summer projects. The winning group had $1000 donated to a charity of their choice!",
+        "category": ["Splunk"],
+        "tags": ["lookup"],
+        "link": {
+            "base": "/app/splunktern_summer_final_project/final_scores?form.year=2018&form.team_id=6",
+            "params": {
+                "form.year": 2018
+            }
+        }
+    },
+    {
+        "id": "sf_muni",
+        "title": "San Francisco Muni Buses",
+        "short-description": "Current location of all SF Muni buses. Data provided by <a href=\"https://www.sfmta.com/getting-around/transit/schedules-trip-planners/accessing-nextmuni-vehicle-prediction-data\" target=\"blank\">SFMTA's NextMuni</a>.",
+        "category": ["Public services"],
+        "tags": ["rest api", "real-time", "json"],
+        "link": {
+            "base": "/app/s4g_welcome/search",
+            "params": {
+                "earliest": "-7d@d",
+                "latest": "now",
+                "q": "search index=sf_muni"
+            }
+        }
+    },
+    {
+        "id": "nhtsa_fars",
+        "title": "NHTSA FARS",
+        "short-description": "Accident data from the National Highway Traffic Safety Administration's Fatality Analysis Reporting System for 2015. App originally by Jason Hupka (Splunker).",
+        "category": ["Public services"],
+        "tags": ["lookup", "fixed range"],
+        "link": {
+            "base": "/app/nhtsa_fars/nhtsa_fars_overview"
+        }
+    },
+    {
+        "id": "fec",
+        "title": "2016 Presidential Election Independent Expenditures",
+        "short-description": "Independent expenditure spending by committees (ie super PACs) during the 2016 presidential election. Election data provided by the <a href=\"https://api.open.fec.gov/developers/\" target=\"_blank\">Federal Election Commission API</a>. Poll data provided by <a href=\"http://elections.huffingtonpost.com/pollster/api\" target=\"_blank\">HuffPost's Pollster API</a>.",
+        "category": ["Regulatory"],
+        "tags": ["rest api", "fixed range", "json", "custom viz"],
+        "link": {
+            "base": "/app/fec/2016_fec_schedule_e"
+        }
+    },
+    {
+        "id": "sf_trees",
+        "title": "San Francisco Tree Maintenance",
+        "short-description": "A smarter tree maintenance schedule based on location, last pruned date, and tree species. Data provided by <a href=\"http://sfpublicworks.org/\" target=\"_blank\">SF Public Works</a>. This project was featured by the mayor's 2017 Civic Bridge program.",
+        "category": ["Public services"],
+        "tags": ["fixed range", "lookup", "machine learning"],
+        "link": {
+            "base": "/app/sf_trees/sf_trees_pruning"
+        }
+    },
+    {
+        "id": "intrinio",
+        "title": "Intrinio Fintech (Stock Prices)",
+        "short-description": "Current stock prices of various tech companies. Data provided by <a href=\"http://docs.intrinio.com/\" target=\"_blank\">Intrinio API</a>.",
+        "category": ["Market"],
+        "tags": ["rest api", "real-time", "json"],
+        "link": {
+            "base": "/app/s4g_welcome/search",
+            "params": {
+                "earliest": "-7d@d",
+                "latest": "now",
+                "q": "search index=money sourcetype=intrinio"
+            }
+        }
+    },
+    {
+        "id": "open_exchange_rates",
+        "title": "Open Exchange Rates",
+        "short-description": "Current exchange rate of various global currencies. Data provided by <a href=\"https://docs.openexchangerates.org/\" target=\"_blank\">Open Exchange Rates API</a>.",
+        "category": ["Market"],
+        "tags": ["rest api", "real-time", "json"],
+        "link": {
+            "base": "/app/s4g_welcome/search",
+            "params": {
+                "earliest": "-7d@d",
+                "latest": "now",
+                "q": "search index=money sourcetype=open_exchange_rates"
+            }
+        }
+    },
+    {
+        "id": "gen",
+        "title": "Human Trafficking",
+        "short-description": "A sample of web scrapes performed by <a href=\"http://www.globalemancipation.ngo/\" target=\"_blank\">Global Emancipation Network</a> using on public listing (mostly escort pages) that are potentially related to human trafficking.",
+        "category": ["Human rights"],
+        "tags": ["work in progress", "rest api", "sample", "json"],
+        "link": {
+            "base": "/app/s4g_welcome/search",
+            "params": {
+                "earliest": "0",
+                "latest": "now",
+                "q": "search index=gen_sample"
+            }
+        }
+    },
+    {
+        "id": "ca_drought",
+        "title": "California Drought",
+        "short-description": "Various drought-related data in California during the severe drought from 2014 to 2015. App originally by Aamir Goriawala (former Splunk intern).",
+        "category": ["Scientific"],
+        "tags": ["lookup", "fixed ranged"],
+        "link": {
+            "base": "/app/ca_drought/urban_water_supplier_reports"
+        }
+    },
+    {
+        "id": "irs_990",
+        "title": "IRS Form 990 (Nonprofits)",
+        "short-description": "Form 990 (officially, the \"Return of Organization Exempt From Income Tax\") is a United States Internal Revenue Service form that provides the public with financial information about a nonprofit organization. It is often the only source of such information. The public dataset includes forms from 2011 to 2017 and is provided by <a href=\"https://aws.amazon.com/public-datasets/irs-990/\" target=\"_blank\">Amazon S3</a>.",
+        "category": ["Regulatory"],
+        "tags": ["work in progress", "fixed ranged", "xml"],
+        "link": {
+            "base": "/app/s4g_welcome/search",
+            "params": {
+                "earliest": "0",
+                "latest": "now",
+                "q": "search index=irs_990 | head 1000"
+            }
+        }
+    },
+    {
+        "id": "fraud",
+        "title": "Splunk Security Essentials for Fraud Detection",
+        "short-description": "These detection use cases were implemented using the Search Processing Language (SPL) and the Machine Learning Toolkit (MLTK). The use cases include example data sets so you may run them yourself. After learning about these examples, you can start to experiment with similar scenarios with your own data using Splunk Enterprise.",
+        "category": ["Security"],
+        "tags": ["lookup", "generated", "fixed range", "machine learning", "custom viz"],
+        "link": {
+            "base": "/app/Splunk-SE-Fraud-Detection/scenarios"
+        }
+    },
+    {
+        "id": "twitter_election_integrity",
+        "title": "Twitter Election Integrity",
+        "short-description": "<a href=\"https://about.twitter.com/en_us/values/elections-integrity.html\" target=\"_blank\">Twitter</a> publicly released archives of Tweets and media that they believe resulted from potentially state-backed information operations on their service. The dataset includes information from 3,841 accounts believed to be connected to the Russian Internet Research Agency, and 770 accounts believed to originate in Iran.",
+        "category": ["Social"],
+        "tags": ["lookup", "fixed range"],
+        "link": {
+            "base": "/app/s4g_welcome/search",
+            "params": {
+                "earliest": "0",
+                "latest": "now",
+                "q": "search index=twitter | head 1000"
+            }
+        }
+    },
+    {
+        "id": "ndbc",
+        "title": "National Data Buoy Center (NDBC)",
+        "short-description": "The premier source of meteorological and oceanographic measurements for the marine environment by the <a href=\"https://www.ndbc.noaa.gov/\" target=\"_blank\">National Data Buoy Center</a>. Includes data from over 600 stations. App by Julien Ruaux.",
+        "category": ["Scientific"],
+        "tags": ["real time", "json", "script"],
+        "link": {
+            "base": "/app/s4g_welcome/search",
+            "params": {
+                "earliest": "0",
+                "latest": "now",
+                "q": "search index=ndbc | head 1000"
+            }
+        }
+    },
+    {
+        "id": "gdelt",
+        "title": "The GDELT Project",
+        "short-description": "The GDELT Project monitors the world's broadcast, print, and web news from nearly every corner of every country in over 100 languages and identifies the people, locations, organizations, themes, sources, emotions, counts, quotes, images and events driving our global society every second of every day, creating a free open platform for computing on the entire world.",
+        "category": ["Social"],
+        "tags": ["work in progress", "lookup", "script", "real-time"],
+        "link": {
+            "base": "/app/s4g_welcome/search",
+            "params": {
+                "earliest": "0",
+                "latest": "now",
+                "q": "search index=gdelt | head 1000"
+            }
+        }
+    }
+]

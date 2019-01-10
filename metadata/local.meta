@@ -1,0 +1,24 @@
+[nav/default]
+version = 6.5.6
+modtime = 1524084876.734844000
+
+[savedsearches/si_index_sourcetype]
+export = none
+owner = admin
+version = 7.0.3
+modtime = 1529119863.879463000
+
+[views/s4g_data_metrics]
+owner = admin
+version = 7.0.3
+modtime = 1529136065.643967000
+
+[savedsearches/alert_less_events]
+export = none
+owner = skawasaki@splunk.com
+version = 7.0.3
+modtime = 1546565792.608025000
+
+[views/about]
+version = 7.0.3
+modtime = 1546555398.489624000
