@@ -163,16 +163,6 @@
         }
     },
     {
-        "id": "fraud",
-        "title": "Splunk Security Essentials for Fraud Detection",
-        "short-description": "These detection use cases were implemented using the Search Processing Language (SPL) and the Machine Learning Toolkit (MLTK). The use cases include example data sets so you may run them yourself. After learning about these examples, you can start to experiment with similar scenarios with your own data using Splunk Enterprise.",
-        "category": ["Security"],
-        "tags": ["lookup", "generated", "fixed range", "machine learning", "custom viz"],
-        "link": {
-            "base": "/app/Splunk-SE-Fraud-Detection/scenarios"
-        }
-    },
-    {
         "id": "twitter_election_integrity",
         "title": "Twitter Election Integrity",
         "short-description": "<a href=\"https://about.twitter.com/en_us/values/elections-integrity.html\" target=\"_blank\">Twitter</a> publicly released archives of Tweets and media that they believe resulted from potentially state-backed information operations on their service. The dataset includes information from 3,841 accounts believed to be connected to the Russian Internet Research Agency, and 770 accounts believed to originate in Iran.",
@@ -214,6 +204,21 @@
                 "earliest": "0",
                 "latest": "now",
                 "q": "search index=gdelt | head 1000"
+            }
+        }
+    },
+    {
+        "id": "snacks",
+        "title": "2017-2018 Snacks for SF HQ from Blue Star",
+        "short-description": "The Blue Star purchase order for snacks for the SF HQ. This will be further analyzed for Splunk's sustainability efforts. The original CSV provided by Blue Star was tranformed into JSON for Splunk.",
+        "category": ["Splunk"],
+        "tags": ["json", "fixed range", "script", "work in progress"],
+        "link": {
+            "base": "/app/s4g_welcome/search",
+            "params": {
+                "earliest": "0",
+                "latest": "now",
+                "q": "search index=snack"
             }
         }
     }
