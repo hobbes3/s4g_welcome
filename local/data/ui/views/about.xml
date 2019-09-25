@@ -3,14 +3,14 @@
   <row>
     <panel>
       <html>
-        <img src="/static/app/s4g_welcome/SIC_logo_cowboy.png" width="500" style="float: left; margin-right: 20px;"/>
+        <img src="/static/app/sfg_main/sic_logo_cowboy.png" width="500" style="float: left; margin-right: 20px;"/>
         <div style="margin-top: 70px; margin-left: 20px;">
-        <p>Splunk Impact Cloud (SIC) is the production environment for Splunk4Good (S4G), Splunk's corporate social responsibility program.</p>
+        <p>Splunk Impact Cloud (SIC) is the production environment for Splunk for Good (SFG), Splunk's corporate social responsibility program.</p>
         <ul>
-          <li>Take the <a href="https://forms.gle/AK7AetKxvQ5c4XuS8">SIC skillset survey</a> if you wish to contribute to S4G SIC-related projects.</li>
+          <li>Take the <a href="https://forms.gle/AK7AetKxvQ5c4XuS8">SIC skillset survey</a> if you wish to contribute to SFG SIC-related projects.</li>
           <li>Latest news and information at our <a href="https://splunk--simpplr.na57.visual.force.com/apex/simpplr__sitedashboard?siteId=aCa33000000Gmf1CAC">Pwny Portal page</a>.</li>
-          <li>A list of S4G projects is located in <a href="https://confluence.splunk.com/display/S4G/Splunk4Good">Confluence</a>.</li>
-          <li>Join our Slack room, #splunk4good, to get involved with S4G projects!</li>
+          <li>A list of SFG projects is located in <a href="https://confluence.splunk.com/display/S4G/Splunk4Good">Confluence</a>.</li>
+          <li>Join our Slack room, #splunkforgood, to get involved with SFG projects!</li>
         </ul>
         
         <p>Please contact Satoshi Kawasaki (s@splunk.com) for questions, comments, and issues regarding SIC and its apps.</p>

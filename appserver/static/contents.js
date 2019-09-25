@@ -64,7 +64,7 @@ require([
             var app = DashboardController.model.app.get('app');
             var exampleInfoCollection = new Backbone.Collection();
             var exampleInfoLoaded = exampleInfoCollection.fetch({
-                url: SplunkUtil.make_url('/static/app/' + app +'/exampleInfo.json'),
+                url: SplunkUtil.make_url('/static/app/' + app +'/info.json'),
                 cache: true
             });
 

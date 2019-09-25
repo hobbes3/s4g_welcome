@@ -15,11 +15,24 @@ version = 7.0.3
 modtime = 1546565792.608025000
 
 [views/about]
-version = 7.0.3
-modtime = 1556915866.723096000
+version = 7.3.1.1
+modtime = 1569450873.275226000
 
 [savedsearches/sic_events_timechart]
 export = none
 owner = skawasaki@splunk.com
 version = 7.0.3
 modtime = 1556569173.997448000
+
+[app/ui]
+version = 7.3.1.1
+modtime = 1569450624.327799000
+
+[app/launcher]
+owner = admin
+version = 7.3.1.1
+modtime = 1569450624.329523000
+
+[app/package/check_for_updates]
+version = 7.3.1.1
+modtime = 1569450624.329951000

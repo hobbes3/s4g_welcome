@@ -16,7 +16,7 @@
         "category": ["Scientific"],
         "tags": ["rest api", "real-time", "json"],
         "link": {
-            "base": "/app/s4g_welcome/search",
+            "base": "/app/sfg_main/search",
             "params": {
                 "earliest": "-7d@d",
                 "latest": "now",
@@ -35,9 +35,9 @@
         }
     },
     {
-        "id": "2017_s4g_intern",
-        "title": "2017-2018 Splunk4Good Splunktern Summer Final Projects",
-        "short-description": "Scores for the S4G intern teams on their S4G final summer projects. The winning group had $1000 donated to a charity of their choice!",
+        "id": "sfg_interns",
+        "title": "Splunk for Good Splunktern Summer Final Projects",
+        "short-description": "Scores for the SFG intern teams on their SFG final summer projects. The winning group had $1000 donated to a charity of their choice!",
         "category": ["Splunk"],
         "tags": ["lookup"],
         "link": {
@@ -54,7 +54,7 @@
         "category": ["Public services"],
         "tags": ["rest api", "real-time", "json"],
         "link": {
-            "base": "/app/s4g_welcome/search",
+            "base": "/app/sfg_main/search",
             "params": {
                 "earliest": "-7d@d",
                 "latest": "now",
@@ -99,7 +99,7 @@
         "category": ["Market"],
         "tags": ["rest api", "real-time", "json"],
         "link": {
-            "base": "/app/s4g_welcome/search",
+            "base": "/app/sfg_main/search",
             "params": {
                 "earliest": "-7d@d",
                 "latest": "now",
@@ -114,7 +114,7 @@
         "category": ["Market"],
         "tags": ["rest api", "real-time", "json"],
         "link": {
-            "base": "/app/s4g_welcome/search",
+            "base": "/app/sfg_main/search",
             "params": {
                 "earliest": "-7d@d",
                 "latest": "now",
@@ -129,7 +129,7 @@
         "category": ["Human rights"],
         "tags": ["work in progress", "rest api", "sample", "json"],
         "link": {
-            "base": "/app/s4g_welcome/search",
+            "base": "/app/sfg_main/search",
             "params": {
                 "earliest": "0",
                 "latest": "now",
@@ -154,7 +154,7 @@
         "category": ["Regulatory"],
         "tags": ["work in progress", "fixed ranged", "xml"],
         "link": {
-            "base": "/app/s4g_welcome/search",
+            "base": "/app/sfg_main/search",
             "params": {
                 "earliest": "0",
                 "latest": "now",
@@ -169,7 +169,7 @@
         "category": ["Social"],
         "tags": ["lookup", "fixed range"],
         "link": {
-            "base": "/app/s4g_welcome/search",
+            "base": "/app/sfg_main/search",
             "params": {
                 "earliest": "0",
                 "latest": "now",
@@ -184,7 +184,7 @@
         "category": ["Scientific"],
         "tags": ["real time", "json", "script"],
         "link": {
-            "base": "/app/s4g_welcome/search",
+            "base": "/app/sfg_main/search",
             "params": {
                 "earliest": "0",
                 "latest": "now",
@@ -199,7 +199,7 @@
         "category": ["Social"],
         "tags": ["work in progress", "lookup", "script", "real-time"],
         "link": {
-            "base": "/app/s4g_welcome/search",
+            "base": "/app/sfg_main/search",
             "params": {
                 "earliest": "0",
                 "latest": "now",
@@ -214,7 +214,7 @@
         "category": ["Splunk"],
         "tags": ["json", "fixed range", "script", "work in progress"],
         "link": {
-            "base": "/app/s4g_welcome/search",
+            "base": "/app/sfg_main/search",
             "params": {
                 "earliest": "0",
                 "latest": "now",
